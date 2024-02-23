@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "Email_backend.Controllers.EmailController",
+    "Method": "SendEmail",
+    "RelativePath": "api/Email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Email_backend.Models.EmailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Email_backend.Controllers.RegistrationController",
+    "Method": "Create",
+    "RelativePath": "api/Registration/CreateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Email_backend.Models.Registration",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Email_backend.Controllers.ResetPasswordController",
+    "Method": "Reset",
+    "RelativePath": "api/ResetPassword/reset_password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Email_backend.Models.Reset_Password",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
